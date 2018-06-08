@@ -1,27 +1,21 @@
-var beep = function(input){
-  if (input % 3 === 0) {
-    return alert("Im Sorry Dave i vant do that");
+function boop(input) {
 
- }
+  var results = [];
+  for (var i = 1; i <= input; i++) {
 
-var num1 = [];
-var num2 = [];
+    if (i % 3 == 0 ) {
+      results.push("I'm sorry, Dave. I'm afraid I can't do that.");
+    } else if (i.toString().match(/0/)) {
+      results.push("Beep!")
 
+    } else if (i.toString().match(/1/)) {
+      results.push("Boop!")
 
-
- if (input === 1000){
-   return alert("1000");
- }
-if(input >= 1) {
-      arrayI.push(numerals[input]);
-}
-
-
-var total = total.join('')
-$(".result").text(total)
-
-
-
+    } else {
+      results.push(i);
+    }
+  }
+  alert(results);
 }
 
 
@@ -34,7 +28,7 @@ $(function(){
   $("form#number").submit(function(event){
     event.preventDefault();
     var input = parseInt($("input#number").val());
-    beep(input);
+    boop(input);
 
   });
 });
