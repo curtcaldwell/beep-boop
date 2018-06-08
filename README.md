@@ -18,14 +18,14 @@ _No known bugs._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Please contact at curt.caldwell24@gmail.com_
 
 ## Technologies Used
 
-_Jquery, JAvaScript, Bootstrap_
+_Jquery, JavaScript, Bootstrap_
 
 ## Behavior Driven Development model, and specs:
-* _Returns a range of numbers from 0 to the chosen number with the following exceptions:
+_Returns a range of numbers from 0 to the chosen number with the following exceptions:
 
 
 |Example Input  | Example Output                                 |
